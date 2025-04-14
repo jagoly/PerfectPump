@@ -1,0 +1,12 @@
+{
+    "name": "PerfectPump",
+    "version": "0.0.1",
+    "title": "Perfect Pump",
+    "author": "jagoly",
+    "factorio_version": "2.0",
+    "description": "A large pump that always runs at full speed, for when you really don't want stuck fluid. Ideal for sushi pipes.",
+    "dependencies": [
+        "base >= 2.0.44",
+        "? pypostprocessing"
+    ]
+}
