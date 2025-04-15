@@ -8,8 +8,8 @@ entity.icon = "__PerfectPump__/graphics/icon.png"
 entity.minable.result = "perfect-pump"
 entity.energy_source.drain = "20kW"
 entity.energy_usage = "180kW"
-entity.fluid_wagon_connector_speed = entity.fluid_wagon_connector_speed * 2.0
--- entity.flow_scaling = false
+entity.fluid_wagon_connector_speed = 2.0 / 64.0 -- double speed
+entity.flow_scaling = false
 
 local size_string = settings.startup["perfect-pump-size"].value --[[@as string]]
 if size_string == "3x2" then
